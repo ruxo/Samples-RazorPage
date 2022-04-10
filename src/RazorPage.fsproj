@@ -10,10 +10,13 @@
     <Compile Include="Pages\Index.cshtml.fs" />
     <Compile Include="Program.fs" />
     <None Include="paket.references" />
-    <Folder Include="wwwroot" />
   </ItemGroup>
-    <ItemGroup>
-      <Content Update="Pages\Index.cshtml" CopyToOutputDirectory="PreserveNewest" />
+  <ItemGroup>
+    <Content Update="Pages\Shared\_Layout.cshtml" CopyToOutputDirectory="PreserveNewest" />
+    <Content Update="Pages\_ViewImports.cshtml" CopyToOutputDirectory="PreserveNewest" />
+    <Content Update="Pages\_ViewStart.cshtml" CopyToOutputDirectory="PreserveNewest" />
+    <Content Update="Pages\Index.cshtml" CopyToOutputDirectory="PreserveNewest" />
+    <Content Update="wwwroot\css\site.css" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
   <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>

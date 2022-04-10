@@ -1,0 +1,21 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1em;
+}
+
+body > header {
+    font-size: 2rem;
+    border: 1px solid darkgoldenrod;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+body > footer {
+    border-top: 1px solid black;
+    padding: 1em;
+}
