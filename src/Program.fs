@@ -1,5 +1,5 @@
-open System
 open Microsoft.AspNetCore.Builder
+open Microsoft.Extensions.DependencyInjection
 open Microsoft.Extensions.Hosting
 
 #nowarn "20"
@@ -7,9 +7,17 @@ open Microsoft.Extensions.Hosting
 [<EntryPoint>]
 let main args =
     let builder = WebApplication.CreateBuilder(args)
+
+    // needed for F# since Razor is C#-specific
+    builder.Services.AddRazorPages().AddRazorRuntimeCompilation()
+
     let app = builder.Build()
 
-    app.MapGet("/", Func<string>(fun () -> "Hello World!"))
+    app.UseHttpsRedirection()
+       .UseStaticFiles()
+       .UseRouting()
+       .UseAuthorization()
+    app.MapRazorPages()
 
     app.Run()
 

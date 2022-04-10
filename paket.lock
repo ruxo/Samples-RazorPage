@@ -1,3 +1,49 @@
 NUGET
   remote: https://api.nuget.org/v3/index.json
     FSharp.Core (6.0.3)
+    Microsoft.AspNetCore.Mvc.Razor.Extensions (6.0.3) - restriction: >= net6.0
+      Microsoft.AspNetCore.Razor.Language (>= 6.0.3) - restriction: >= netstandard2.0
+      Microsoft.CodeAnalysis.Razor (>= 6.0.3) - restriction: >= netstandard2.0
+    Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation (6.0.3)
+      Microsoft.AspNetCore.Mvc.Razor.Extensions (>= 6.0.3) - restriction: >= net6.0
+      Microsoft.CodeAnalysis.Razor (>= 6.0.3) - restriction: >= net6.0
+      Microsoft.Extensions.DependencyModel (>= 6.0) - restriction: >= net6.0
+    Microsoft.AspNetCore.Razor.Language (6.0.3) - restriction: >= net6.0
+    Microsoft.CodeAnalysis.Analyzers (3.3.3) - restriction: >= net6.0
+    Microsoft.CodeAnalysis.Common (4.1) - restriction: >= net6.0
+      Microsoft.CodeAnalysis.Analyzers (>= 3.3.3) - restriction: >= netstandard2.0
+      System.Collections.Immutable (>= 5.0) - restriction: >= netstandard2.0
+      System.Memory (>= 4.5.4) - restriction: >= netstandard2.0
+      System.Reflection.Metadata (>= 5.0) - restriction: >= netstandard2.0
+      System.Runtime.CompilerServices.Unsafe (>= 5.0) - restriction: >= netstandard2.0
+      System.Text.Encoding.CodePages (>= 4.5.1) - restriction: >= netstandard2.0
+      System.Threading.Tasks.Extensions (>= 4.5.4) - restriction: >= netstandard2.0
+    Microsoft.CodeAnalysis.CSharp (4.1) - restriction: >= net6.0
+      Microsoft.CodeAnalysis.Common (4.1) - restriction: >= netstandard2.0
+    Microsoft.CodeAnalysis.Razor (6.0.3) - restriction: >= net6.0
+      Microsoft.AspNetCore.Razor.Language (>= 6.0.3) - restriction: >= netstandard2.0
+      Microsoft.CodeAnalysis.Common (>= 4.0) - restriction: >= netstandard2.0
+      Microsoft.CodeAnalysis.CSharp (>= 4.0) - restriction: >= netstandard2.0
+    Microsoft.Extensions.DependencyModel (6.0) - restriction: >= net6.0
+      System.Buffers (>= 4.5.1) - restriction: || (>= net461) (>= netstandard2.0)
+      System.Memory (>= 4.5.4) - restriction: || (>= net461) (>= netstandard2.0)
+      System.Runtime.CompilerServices.Unsafe (>= 6.0) - restriction: || (>= net461) (>= netstandard2.0)
+      System.Text.Encodings.Web (>= 6.0) - restriction: || (>= net461) (>= netstandard2.0)
+      System.Text.Json (>= 6.0) - restriction: || (>= net461) (>= netstandard2.0)
+    System.Buffers (4.5.1) - restriction: >= net6.0
+    System.Collections.Immutable (6.0) - restriction: >= net6.0
+      System.Runtime.CompilerServices.Unsafe (>= 6.0) - restriction: || (>= net461) (>= netstandard2.0)
+    System.Memory (4.5.4) - restriction: >= net6.0
+      System.Buffers (>= 4.5.1) - restriction: || (&& (>= monoandroid) (< netstandard1.1)) (&& (< monoandroid) (< net45) (>= netstandard1.1) (< netstandard2.0) (< win8) (< wpa81)) (&& (< monoandroid) (< netstandard1.1) (>= portable-net45+win8+wpa81) (< win8)) (>= monotouch) (&& (>= net45) (< netstandard2.0)) (&& (< net45) (< netcoreapp2.0) (>= netstandard2.0)) (>= net461) (&& (< netstandard1.1) (>= win8)) (&& (< netstandard2.0) (< uap10.1) (>= wpa81)) (>= xamarinios) (>= xamarinmac) (>= xamarintvos) (>= xamarinwatchos)
+      System.Runtime.CompilerServices.Unsafe (>= 4.5.3) - restriction: || (&& (>= monoandroid) (< netstandard1.1)) (&& (< monoandroid) (< net45) (>= netstandard1.1) (< netstandard2.0) (< win8) (< wpa81)) (&& (< monoandroid) (>= netcoreapp2.0) (< netcoreapp2.1)) (&& (< monoandroid) (< netstandard1.1) (>= portable-net45+win8+wpa81) (< win8)) (>= monotouch) (&& (>= net45) (< netstandard2.0)) (&& (< net45) (< netcoreapp2.0) (>= netstandard2.0)) (>= net461) (&& (< netstandard1.1) (>= win8)) (&& (< netstandard2.0) (>= wpa81)) (>= uap10.1) (>= xamarinios) (>= xamarinmac) (>= xamarintvos) (>= xamarinwatchos)
+    System.Reflection.Metadata (6.0.1) - restriction: >= net6.0
+      System.Collections.Immutable (>= 6.0) - restriction: || (>= net461) (>= netstandard2.0)
+    System.Runtime.CompilerServices.Unsafe (6.0) - restriction: >= net6.0
+    System.Text.Encoding.CodePages (6.0) - restriction: >= net6.0
+      System.Runtime.CompilerServices.Unsafe (>= 6.0) - restriction: || (>= net461) (>= netstandard2.0)
+    System.Text.Encodings.Web (6.0) - restriction: >= net6.0
+      System.Runtime.CompilerServices.Unsafe (>= 6.0) - restriction: || (>= net461) (>= netstandard2.0)
+    System.Text.Json (6.0.2) - restriction: >= net6.0
+      System.Runtime.CompilerServices.Unsafe (>= 6.0) - restriction: || (>= net461) (>= netstandard2.0)
+      System.Text.Encodings.Web (>= 6.0) - restriction: || (>= net461) (>= netstandard2.0)
+    System.Threading.Tasks.Extensions (4.5.4) - restriction: >= net6.0
